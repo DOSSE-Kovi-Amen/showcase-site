@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : ven. 21 oct. 2022 à 12:13
+-- Généré le : dim. 23 oct. 2022 à 11:07
 -- Version du serveur : 10.4.24-MariaDB
 -- Version de PHP : 8.0.19
 
@@ -48,7 +48,11 @@ INSERT INTO `categories` (`id`, `parent_id`, `order`, `name`, `slug`, `created_a
 (4, NULL, 1, 'Culture', 'culture', '2022-10-20 14:25:40', '2022-10-20 14:25:40'),
 (5, NULL, 1, 'Education', 'education', '2022-10-20 15:25:22', '2022-10-20 15:25:22'),
 (6, NULL, 1, 'Religion', 'religion', '2022-10-20 15:25:34', '2022-10-20 15:25:34'),
-(7, NULL, 1, 'Science', 'science', '2022-10-20 15:26:14', '2022-10-20 15:26:14');
+(7, NULL, 1, 'Science', 'science', '2022-10-20 15:26:14', '2022-10-20 15:26:14'),
+(8, NULL, 1, 'AZAEZZ', 'azaezz', '2022-10-23 08:44:40', '2022-10-23 08:44:40'),
+(9, NULL, 1, 'fgghfhgh', 'fgghfhgh', '2022-10-23 08:44:49', '2022-10-23 08:44:49'),
+(10, NULL, 1, 'Sportfgfg$', 'sportfgfgdollar', '2022-10-23 08:45:11', '2022-10-23 08:45:11'),
+(11, NULL, 1, 'fgfgh', 'fgfgh', '2022-10-23 08:45:19', '2022-10-23 08:45:19');
 
 -- --------------------------------------------------------
 
@@ -670,7 +674,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `role_id`, `name`, `email`, `avatar`, `email_verified_at`, `password`, `remember_token`, `settings`, `created_at`, `updated_at`) VALUES
-(1, 1, 'Admin', 'admin@admin.com', 'users/default.png', NULL, '$2y$10$ZHk3JhT9S6UfYHESxOOoI.WM9llYEWlpJa/MKAUV65zaWlhbHwfr6', '2k6iHKp1VKD6MdGthsw5FzuW7WEw2dijGEsRyHGoJftLq5hHzjFQyd6ZMwgo', NULL, '2022-10-16 15:10:25', '2022-10-16 15:10:25');
+(1, 1, 'Admin', 'admin@admin.com', 'users/default.png', NULL, '$2y$10$ZHk3JhT9S6UfYHESxOOoI.WM9llYEWlpJa/MKAUV65zaWlhbHwfr6', 'RIugcFOHZMIqs40W9h2QGDAuNzbjSScUfjvjjegSVqEt2WXcTDiYaFSfWaoj', NULL, '2022-10-16 15:10:25', '2022-10-16 15:10:25');
 
 -- --------------------------------------------------------
 
@@ -830,7 +834,7 @@ ALTER TABLE `user_roles`
 -- AUTO_INCREMENT pour la table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT pour la table `data_rows`

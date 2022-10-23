@@ -155,7 +155,7 @@
             <div class="row">
                 @foreach ($last_posts as $post)
                     <div class="col-lg-4 col-md-12 mb-4">
-                        <div class="card shadow-lg border-0" data-aos="fade-left">
+                        <div class="card shadow-lg border-0" data-aos="fade-right">
                             <div class="bg-image hover-overlay ripple">
                                 <img style="object-fit: cover; height:200px; width:100%;"
                                     src="{{ asset(Voyager::image($post->image)) }}" class="img-fluid"
